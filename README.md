@@ -18,6 +18,6 @@ organized by DSA patterns.
 - Dynamic Programming
 
 ## 🎯 Goal
-Solve 200+ DSA problems with clean, optimized code and proper explanations.
+To Solve 200+ DSA problems with clean, optimized code and proper explanations.
 
 Language: Python / C
