@@ -25,6 +25,3 @@ class Solution(object):
             else:
                 r = mid
         return nums[l]
-
-
-If you want it **even shorter (one-screen README)** or **with comments removed**, tell me 👍
