@@ -1,7 +1,7 @@
 # Approach:
 # Use prefix and suffix maximum arrays.
 # For each middle index `j`, take the maximum value before it (`prefix_max[j-1]`) and after it (`suffix_max[j+1]`) and compute
-# ((prefix_max[j-1] - nums[j]) \times suffix_max[j+1]).
+# ((prefix_max[j-1] - nums[j]) X suffix_max[j+1]).
 # Track the maximum result.
 
 class Solution(object):
