@@ -17,8 +17,10 @@ class Solution(object):
             return lists[0]
         
         def merge(left,right):
+            # using dummy is very important..
             dummy = ListNode(0)
             curr = dummy
+            
             while left and right:
                 if left.val < right.val:
                     curr.next = left
