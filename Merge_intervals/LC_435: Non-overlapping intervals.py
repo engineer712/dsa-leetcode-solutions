@@ -1,3 +1,8 @@
+#intervals.sort(key = lambda interval: interval[1])
+# It sorts the intervals based on their **ending time** (`interval[1]`).
+# This helps in greedy problems to pick intervals that finish earliest and avoid overlaps.
+
+
 class Solution(object):
     def eraseOverlapIntervals(self, intervals):
         """
