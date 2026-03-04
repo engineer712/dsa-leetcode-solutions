@@ -1,14 +1,14 @@
-# LeetCode 33 – Search in Rotated Sorted Array (Approach)
-# 1. Use **binary search** because the array is originally sorted, just rotated — so we can still achieve **O(log n)** time.
+# (Approach):
+# 1. Use "binary search" because the array is originally sorted, just rotated — so we can still achieve O(log n) time.
 # 2. In every iteration, at least **one half (left–mid or mid–right) will be properly sorted**.
-#    * If `nums[l] <= nums[mid]`, left half is sorted.
+#    * If "nums[l] <= nums[mid]", left half is sorted.
 #    * Else, right half is sorted.
-# 3. Check whether the **target lies inside the sorted half’s range**.
+# 3. Check whether the **target lies inside the sorted half’s range.
 #    * If yes → move towards that half.
 #    * If no → search in the other half.
-# 4. Continue until you find the target or `l > r`.
+# 4. Continue until you find the target or l > r.
 
-# Key idea: *Identify the sorted half first, then decide direction.*
+# Key idea: *Identify the sorted half first, then decide direction.
 
 
 class Solution(object):
