@@ -18,6 +18,7 @@ class Solution(object):
                 if len(arr) <= 1:
                     res[i][j] = 0
                     continue
+                    
                 mini = float('inf')
                 for p in range(1,len(arr)):
                     mini = min(mini, arr[p] - arr[p-1])
